@@ -4,7 +4,7 @@ import { Mail } from 'lucide-react';
 const SignIn = () => {
 
     return (
-        <div>   <NavBar />
+        <div className="bg-gray-700">   <NavBar />
             <div className=" border h-screen bg-blue-50 w-full shadow-black">
 
                 <div className="flex flex-col items-center justify-center gap-9 font-serif " >
