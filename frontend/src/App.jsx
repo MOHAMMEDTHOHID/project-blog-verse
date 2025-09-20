@@ -1,18 +1,19 @@
 import ProductCard from "./ProductCard"
 import NavBar from "./NavBar.jsx"
 import SignUp from "./SignUp.jsx"
-import SingIn from "./SignIn.jsx"
-import Home from "./Home1.jsx"
+import SignIn from "./SignIn.jsx"
+import Home from "./Home.jsx"
+import { Routes, Route } from 'react-router-dom'
+import { Component } from "react"
 function App() {
-  
+
 
   return (
- <div className=" ">
-     <NavBar/>
-    {/* <SignUp/> */}
-   {/* <SingIn/> */}
-   <Home/>
-    </div>
+    <Routes>
+      <Route path="/signup" element={<SignUp />}/>
+      <Route path="/signIn" element={<SignIn/>}/>
+      <Route path="/home" element={<Home/>}/>
+    </Routes>
   )
 }
 
