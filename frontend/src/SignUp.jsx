@@ -176,7 +176,7 @@ const SignUp = () => {
               Sign In Here
             </Link>
           </p>
-          <Link to="/Home" className="font-semibold mt-2 hover:text-blue-900 cursor-pointer text-center">
+          <Link to="/" className="font-semibold mt-2 hover:text-blue-900 cursor-pointer text-center">
             Back to Home
           </Link>
         </form>
