@@ -63,11 +63,11 @@ function Home() {
             <NavBar />
             
                 <div className="min-h-screen flex flex-col items-center pt-5 bg-blue-50">
-                    <p className="text-4xl font-bold">Welcome back, Dev Astra</p>
-                    <p className="text-lg text-gray-500 mt-4"> Discover amazing stories, insights, and ideas from our community of writers.</p>
+                    <p className="text-xs font-bold sm:text-sm md:text-4xl ">Welcome back, Dev Astra</p>
+                    <p className="text-xs p-3 font-bold sm:text-sm  md:text-4xl  text-gray-500 mt-4"> Discover amazing stories, insights, and ideas from our community of writers.</p>
                     <div className=" flex gap-10 justify-around mt-5 ">
-                        <button className="px-10 py-4 cursor-pointer bg-blue-700 hover:bg-blue-900 shadow-md text-white rounded-md">Write a New Post</button>
-                        <button className="px-10 py-4 cursor-pointer bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-md" >View My Posts</button>
+                        <button className="px-8 py-3 cursor-pointer text-xs font-bold sm:text-sm  md:text-4xl bg-blue-700 hover:bg-blue-900 shadow-md text-white rounded-md">Write a New Post</button>
+                        <button className="px-8 py-3 cursor-pointer text-xs font-bold sm:text-sm  md:text-4xl bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-md" >View My Posts</button>
                     </div>
                     <div className="mt-5 flex gap-10 flex-wrap justify-center w-full rounded-lg shadow-lg pb-5">
                         {
